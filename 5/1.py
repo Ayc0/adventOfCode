@@ -2,8 +2,6 @@ file = open("./io.txt", "r")
 io = [int(line.strip()) for line in file.readlines()]
 file.close()
 
-print(io)
-
 pointer = 0
 loop = True
 i = 1
